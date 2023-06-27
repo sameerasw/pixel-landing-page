@@ -1,0 +1,150 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    margin: 1% 0%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+#navbar{
+    background-color: #ffffff;
+    z-index: 100;
+    position: fixed;
+    width: 100%
+}
+
+#nav-list li {
+    display: inline-block;
+    padding: 0.25% 1%;
+    list-style: none;
+    margin: 0 5px;
+    transition: all 0.3s ease-in-out;
+}
+#nav-list li:hover {
+    background-color: #eeeeee;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+#nav-list li a {
+    display: block;
+    text-decoration: none;
+    color: #888888;
+    text-align: center;
+}
+
+#nav-list {
+    display: inline;
+    float: center;
+}
+
+.logo{
+    display: inline-flex;
+    align-items: center;
+    float: left;
+    padding: 0% 2%;
+}
+
+#logo-text{
+    padding-left:10px;
+    font-size: 1.3em;
+    color: #888888;
+    text-align: left;
+}
+
+.nav-right-icons{
+    display: inline-flex;
+    align-items: center;
+    float:right;
+    padding-right:2%;
+}
+
+#cart{
+    padding-right: 20px;
+}
+
+.headline{
+    position: absolute;
+    text-align: left;
+    padding: 0% 3%;
+    font-size: 3em;
+    line-height: 0.2em;
+    top: 35%;
+    z-index: 5;
+}
+
+.headline p{
+    font-size: 0.5em;
+    color: #888888;
+}
+
+.cta-primary{
+    background-color: #888888;
+    border: 0px;
+    border-radius: 30px;
+    padding: 3% 5%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-primary:hover{
+    background-color: #aaaaaa;
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-secondary{
+    background-color: #ffffff00;
+    border: 0px;
+    padding: 3% 5%;
+    text-decoration: none;
+    color: #888888;
+    font-size: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-secondary:hover{
+    color: #222222;
+    transition: all 0.3s ease-in-out;
+}
+
+.device-frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    padding: 0%, -10%;
+    /* background-color: #ff9999; */
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.device-back{
+    position: absolute;
+    width: 345px;
+    height: 740px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0%, -10%;
+    background-color: #ff9999;
+    border-radius: 45px;
+    z-index: 0;
+}
+
+#title-3a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0%, -10%;
+    font-size: 60em;
+    font-weight: bold;
+    color: #ff9999;
+    z-index: 0;
+}
