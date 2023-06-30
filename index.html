@@ -37,16 +37,21 @@
                 <button class="cta-primary">Order Now!</button>
                 <button class="cta-secondary">Learn more -></button>
             </div>
-            <img class="device-frame" src="./resources/Pixel3A-custom-mockup.png" alt="device frame">
-            <div class="device-back"></div>
+            <img class="device-frame device-position" src="./resources/Pixel3A-custom-mockup.png" alt="device frame">
+            <div class="device-back device-position accent"></div>
             <div>
-                <span id="title-3a">3A</span>
+                <span id="title-3a" class="device-position accent">3A</span>
+            </div>
+            <div class="colors">
+                <div class="color" id="white"></div>
+                <div class="color" id="black"></div>
+                <div class="color" id="red"></div>
             </div>
         </div>
         <div id="gradient"></div>
     </section>
     <section class="more-devices">
-        <table id="devices-table">
+        <table class="table">
             <tr>
                 <th colspan="4">
                     <h2>More Devices</h2>
@@ -79,7 +84,7 @@
         </div>
     </section>
     <section class="features">
-        <table id="features-table">
+        <table class="table">
             <tr>
                 <th colspan="3">
                     <h2>Pixel Features</h2>
@@ -88,15 +93,15 @@
             <tr>
                 <td id="feature-1">
                     <!-- <img src="./resources/features/AR_Maps_P3a_transparent_2x.gif" alt="device frame"> -->
-                    <span>Pixel 3</span>
+                    <span>AR Maps</span>
                 </td>
                 <td id="feature-2">
                     <!-- <img src="./resources/features/Timelapse3A_1.gif" alt="device frame"> -->
-                    <span>Pixel 3A XL</span>
+                    <span>Timelapse</span>
                 </td>
                 <td id="feature-3">
                     <!-- <img src="./resources/features/WMp6tLmU7viJLGJhGwYpnC.jpg" alt="device frame"> -->
-                    <span>Pixel 3 XL</span>
+                    <span>Google Assistant</span>
                 </td>
             </tr>
             <tr>
@@ -107,5 +112,6 @@
         </table>
         </div>
     </section>
+    <script src="./js/script.js"></script>
 </body>
 </html>
