@@ -237,7 +237,7 @@ section{
 }
 
 .table-button{
-    height: 3rem !important;
+    height: 2rem !important;
     padding: 2%;
     background-color: var(--bg-empty) !important;
     transition: all 0.3s ease-in-out;
@@ -356,4 +356,25 @@ section{
 
 #red{
     background-color: var(--accent-red);
+}
+
+#accessories{
+    position: absolute;
+    top: 10%;
+}
+
+#accessories .table td{
+    padding: 2%;
+    width: 10%;
+    background-color: var(--bg-grey);
+    border: 0px solid var(--text-black);
+    border-radius: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+#accessories span{
+    position: relative;
+    top: 60%;
+    font-size: 1em;
+    color: var(--text-black);
 }
