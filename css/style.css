@@ -360,21 +360,14 @@ section{
 
 #accessories{
     position: absolute;
-    top: 10%;
+    top: 15%;
 }
 
 #accessories .table td{
-    padding: 2%;
+    padding: 1%;
     width: 10%;
     background-color: var(--bg-grey);
     border: 0px solid var(--text-black);
     border-radius: 40px;
     transition: all 0.3s ease-in-out;
-}
-
-#accessories span{
-    position: relative;
-    top: 60%;
-    font-size: 1em;
-    color: var(--text-black);
 }
