@@ -374,3 +374,48 @@ section{
     border-radius: 40px;
     transition: all 0.3s ease-in-out;
 }
+
+.buy-now{
+    position: absolute;
+    top: 0%;
+    left: -35%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    color: var(--text-black) !important;
+}
+
+.bg-square{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 60%;
+    height: 75%;
+    background-color: var(--bg-grey);
+    border-radius: 40px;
+    padding: 2%;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.storage, .color-options, .google-photos-offer{
+    height: 50%;
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-white);
+    border-radius: 20px;
+}
+
+.colors-buy div{
+    margin: 10%;
+}
