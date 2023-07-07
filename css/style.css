@@ -16,6 +16,10 @@
     --bg-color: #ff9999;
 }
 
+body button:hover{
+    cursor: pointer;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
@@ -87,11 +91,18 @@ body{
     display: inline-flex;
     align-items: center;
     float:right;
-    padding-right:2%;
+    margin-right:4%;
 }
 
-#cart{
-    padding-right: 20px;
+.nav-right-icons div:hover{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--bg-grey);
+    border-radius: 10px;
+}
+
+.nav-right-icons div{
+    margin: 0% 15%;
 }
 
 .headline{
@@ -136,6 +147,10 @@ body{
     text-decoration: none;
     color: var(--text-grey);
     font-size: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+#cta-arrow{
     transition: all 0.3s ease-in-out;
 }
 
@@ -396,6 +411,12 @@ section{
     padding: 2%;
 }
 
+.bg-square h1{
+    font-size: 2em;
+    color: var(--text-black);
+    text-align: center;
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -404,9 +425,9 @@ section{
 }
 
 .storage, .color-options, .google-photos-offer{
-    height: 50%;
+    min-height: 25rem;
     width: 30%;
-    margin: 1%;
+    margin: 5% 1%;
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -416,6 +437,67 @@ section{
     border-radius: 20px;
 }
 
+.google-photos-offer img{
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.storage-option{
+    margin: 10%;
+    display: inline-block;
+}
+
 .colors-buy div{
     margin: 10%;
+}
+
+.buttons{
+    font-size: 3rem !important;
+}
+
+#cart{
+    font-size: 1rem;
+    padding: 1%2%;
+}
+
+#locate{
+    font-size: 1rem;
+    padding: 1%2%;
+}
+
+#specifications-section{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 20%;
+    height: 75%;
+    background-color: var(--bg-grey);
+    border-radius: 40px;
+    padding: 2%;
+}
+
+.specs{
+    margin: 10% 0%;
+    font-size: 1em;
+    color: var(--text-black);
+    display: flex;
+    flex-direction: row;
+}
+
+.specs p, .specs h4{
+    margin: 2% 15px;
+    width: 100%;
+}
+
+.gallery{
+    background-color: var(--bg-grey-aa);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 40px;
+}
+
+#gallery-div-1, #gallery-div-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
